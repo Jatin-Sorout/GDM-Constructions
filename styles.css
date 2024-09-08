@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+/* Project Section */
+#projects .project {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #4CAF50;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+}
+
+#projects .project h3 {
+    margin-top: 10px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+#projects .project p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #666;
+}
+
+#projects .project img.project-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Project Section */
+#projects .project {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #4CAF50;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+}
+
+#projects .project h3 {
+    margin-top: 10px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+#projects .project p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #666;
+}
+
+#projects .project p.status {
+    font-weight: bold;
+    color: #FF5722; /* Orange color for "On Progress" */
+}
+
+#projects .project img.project-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.heading-container {
+    display: flex;
+    align-items: center; /* Aligns images and heading in the center vertically */
+    justify-content: center; /* Spreads items evenly */
+}
+
+.heading-img {
+    width: 150px; /* Adjust image width */
+    height: 150px; /* Keeps the aspect ratio */
+    border: 4px solid #4CAF50; /* Add a border if needed */margin:auto;border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for a beautiful effect */
+    margin: 0 10px; /* Space between images and heading */
+}
+.heading-text {
+    font-weight: bold;
+    font-size: 24px; /* Adjust size as needed */
+}
+.pdf{color:black;margin-left:5%}
+h3{background:black;color:white;text-align:center;text:bold}.bold{margin-right:10px;font-weight:700}
+.project-image{width:80%;height:50%;padding:auto;border:5px solid black;}
+.head{height:30%;width:20%;padding:5px;margin-right:15px}
