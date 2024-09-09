@@ -180,3 +180,7 @@ button:hover {
 h3{background:black;color:white;text-align:center;text:bold}.bold{margin-right:10px;font-weight:700}
 .project-image{width:80%;height:50%;padding:auto;border:5px solid black;}
 .head{height:30%;width:20%;padding:5px;margin-right:15px}
+h1{
+  max-width: 100%; /* Ensures the container doesn't exceed the screen width */
+  padding: 0 10px; /* Optional padding for small screens */
+}
